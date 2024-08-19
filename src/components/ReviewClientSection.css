@@ -1,0 +1,58 @@
+.rewiew-client-section-main-div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .rewiew-client-section-header-title {
+    color: #355592;
+    font-size: 250%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .rewiew-client-section-img {
+    border-radius: 50px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .rewiew-client-section-p1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .rewiew-client-section-div {
+    clear: both;
+    margin-top: 20px;
+    background-color: #355592;
+    color: white;
+    border-radius: 2px;
+    width: 80%;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-shadow: 0 4px 8px #355592;
+    object-fit: cover;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 200px 0 0;
+    border-color: #ff4532 transparent transparent transparent;
+    transform: rotate(0deg);
+  }
+  
+  @media (max-width: 576px) {
+    .rewiew-client-section-div {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

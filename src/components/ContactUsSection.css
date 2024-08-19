@@ -1,0 +1,67 @@
+.contact-us-section-div {
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .rewiew-client-section-main-div {
+    text-align: center;
+    font-size: 100%;
+  }
+  
+  .contact-us-section-header-title {
+    color: #355592;
+    font-size: 250%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .contact-us-section-h1a,
+  .contact-us-section-h1b,
+  .contact-us-section-h1c {
+    font-size: 130%;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contact-us-section-h1c {
+    font-size: 150%;
+    font-weight: bold;
+  }
+  
+  .contact-us-section-nameinput,
+  .contact-us-section-mailinput,
+  .contact-us-section-messageinput {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us-section-nameinput,
+  .contact-us-section-mailinput {
+    height: 30px;
+  }
+  
+  .contact-us-section-messageinput {
+    height: 80px;
+  }
+  
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: 340px;
+    width: 508px;
+  }
+  
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 340px;
+    width: 508px;
+  }
+  

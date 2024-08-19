@@ -1,0 +1,92 @@
+.main-container {
+    background-image: url('../images/hero-man.jpg');
+    background-size: cover; /* Arka plan resmini kapla */
+    background-position: center; /* Arka plan resmini ortala */
+    background-repeat: no-repeat; /* Arka plan resmini tekrar etme */
+}
+
+
+
+/*nav section classes */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #355592;
+    color: white;
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links a,
+.navbar-links .btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-btn{
+    background-color: #ff8c00;
+    color: white;
+    font-size: 100%;
+    border-radius: 10px;
+    width: 100px;
+    border: white;
+}
+.nav-btn:hover {
+    background-color: #ff7000;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 2px;
+    background: #000;
+}
+
+@media (max-width: 576px) {
+   .navbar-links {
+       display: none; /* Menü kapalı olarak başlar */
+       flex-direction: column;
+       width: 100%;
+       position: absolute;
+       top: 60px; /* Navbar'ın altından hemen aşağıda olacak */
+       left: 0;
+       background-color: #355592;
+       padding: 10px;
+       z-index: 999; /* Hamburger menünün üstünde kalması için */
+   }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+/*nav section classes */

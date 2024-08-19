@@ -1,0 +1,60 @@
+.purchase-from-us-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  
+  .purchase-from-us-title {
+    color: #355592;
+    font-size: 250%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .purchase-from-us-description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .purchase-from-us-card {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+  }
+  
+  .purchase-from-us-card-title {
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+  }
+  
+  .purchase-from-us-card-description {
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+  }
+  
+  .purchase-from-us-card-description .old-price {
+    text-decoration: line-through;
+  }
+  
+  .purchase-from-us-card-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .purchase-from-us-card-icon {
+    margin-right: 30px;
+    font-size: 100%;
+    margin-left: 2px;
+  }
+  
+  .purchase-from-us-card-info {
+    font-size: 100%;
+    font-weight: bold;
+  }
+  

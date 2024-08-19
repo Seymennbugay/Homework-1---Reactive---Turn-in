@@ -1,0 +1,57 @@
+/* Our Classes Top Part Section */
+.classes-header {
+  text-align: center;
+  color: #355592;
+  font-size: 250%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.classes-paragraph {
+  text-align: center;
+  font-size: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Our Classes Section Yoga Types Section */
+.yoga-types-section {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.yoga-type-box {
+  color: white;
+  background-color: #355592;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow ekler */
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  padding-top: 5px;
+  font-size: 150%;
+  margin-bottom: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.yoga-type-box:hover {
+  background-color: #ff8c00; /* Hover sırasında arka plan rengini değiştirir */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Hover sırasında kutu gölgesini artırır */
+  color: #fff; /* Metin rengini beyaz yapar */
+  transition: all 0.3s ease; /* Geçiş efektini ekler */
+}
+
+/* Our Classes Yoga Picture Part */
+.yoga-picture-part {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.yoga-image {
+  height: 270px;
+  border: 4px solid #ff8c00; /* Kenarlık rengi ve kalınlığı */
+  border-radius: 15px; /* Köşeleri yuvarlar */
+  box-shadow: 0 4px 8px #ff8c00; /* Daha koyu kutu gölgesi ekler */
+  object-fit: cover; /* Resmin kapsayıcıya uyum sağlamasını sağlar */
+}

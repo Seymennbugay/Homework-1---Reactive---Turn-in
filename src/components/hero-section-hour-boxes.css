@@ -1,0 +1,32 @@
+/* Hero Section Hour Boxes */
+.hero-section-hour-boxes {
+    margin-top: 20px;
+  }
+  
+  .hour-box {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border-radius: 10px; /* Köşeleri yuvarla */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Kutu gölgesi ekle */
+    text-align: center;
+    height: 100px;
+    width: 230px;
+    padding: 20px;
+  }
+  
+  .hour-number {
+    color: #355592;
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  @media (max-width: 576px) {
+    .hour-box {
+      width: 60%; /* Genişlik %60 olacak şekilde ayarla */
+      margin: 0 auto 20px auto; /* Ortalamak için üst-alt 0, sağ-sol auto */
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+.our-best-trainers-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+  }
+  
+  .our-best-trainers-row {
+    text-align: center;
+  }
+  
+  .our-best-trainers-title {
+    color: #355592;
+    font-size: 250%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .our-best-trainers-description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .our-best-trainers-img {
+    margin-bottom: 30px;
+    border: 4px solid #ff8c00;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #ff8c00;
+    object-fit: cover;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .our-best-trainers-img:hover {
+    box-shadow: 0 8px 16px #ff8c00;
+  }
+  
+  @media (max-width: 576px) {
+    .our-best-trainers-row {
+      display: flex;
+      justify-content: center;
+    }
+    .our-best-trainers-col {
+      flex: 0 0 80%;
+      max-width: 80%;
+      margin-bottom: 20px;
+    }
+    .our-best-trainers-img {
+      width: 100%;
+    }
+  }
+  

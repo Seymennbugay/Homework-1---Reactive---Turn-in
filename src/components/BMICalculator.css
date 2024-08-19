@@ -1,0 +1,77 @@
+.bmi-calculator-section {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bmi-calculator-title {
+    color: #355592;
+    font-size: 250%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bmi-calculator-info {
+    text-align: center;
+    font-size: 150%;
+}
+
+.bmi-calculator-image {
+    height: 270px;
+    border: 4px solid #ff8c00; /* Kenarlık rengi ve kalınlığı */
+    border-radius: 15px; /* Köşeleri yuvarlar */
+    box-shadow: 0 4px 8px #ff8c00; /* Daha koyu kutu gölgesi ekler */
+    object-fit: cover; /* Resmin kapsayıcıya uyum sağlamasını sağlar */
+}
+
+.bmi-submit-btn {
+    background-color: #355592;
+    color: white;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Hover effect */
+.bmi-submit-btn:hover {
+    background-color: #2a4175;
+}
+
+.bmi-chart-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.bmi-arrow {
+    position: absolute;
+    top: -20px; /* Okun resmin üstünde görünmesini sağlar */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #ff8c00; /* Turuncu üçgenin sivri ucu yukarıda olacak */
+    display: none; /* Başlangıçta oku gizle */
+}
+
+.arrow-underweight {
+    left: 10%; /* İlk parçayı göster */
+}
+
+.arrow-normal {
+    left: 30%; /* İkinci parçayı göster */
+}
+
+.arrow-overweight {
+    left: 50%; /* Üçüncü parçayı göster */
+}
+
+.arrow-obese {
+    left: 70%; /* Dördüncü parçayı göster */
+}
+
+.arrow-severely-obese {
+    left: 90%; /* Beşinci parçayı göster */
+}
+
+ /*bmi calculator classes*/
